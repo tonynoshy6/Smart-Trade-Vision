@@ -1,0 +1,32 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "iHekdBmZYbzIQVNT-ZDgm"
+uri = "file://myproject.tar.gz"
+type = "unspecified"
+title = "myproject.tar.gz — المشروع كاملاً"
+
+[[outputs]]
+id = "JPwRvyJB3DBvnHaEepn9b"
+uri = "file://upload_ready.zip"
+type = "unspecified"
+title = "upload_ready.zip — المشروع كاملاً"
+
+[[outputs]]
+id = "824AjPv2OKHz-zhifYLim"
+uri = "file://ready_site.zip"
+type = "unspecified"
+title = "ready_site.zip — المشروع جاهز للرفع"
+
+[[outputs]]
+id = "WxtraxEgsZscO7SNCeIYw"
+uri = "file://dist_output.zip"
+type = "unspecified"
+title = "dist_output.zip — مجلدات dist جاهزة للنشر"
+
+[[outputs]]
+id = "1BYXZrP1s96E3SdAyQeDz"
+uri = "file://Smart-Trade-Vision.zip"
+type = "unspecified"
+title = "Smart-Trade-Vision.zip — كود المشروع كاملاً"
