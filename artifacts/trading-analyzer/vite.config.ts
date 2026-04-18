@@ -33,8 +33,8 @@ export default defineConfig({
     alias: {
       "@": path.resolve(import.meta.dirname, "src"),
       "@assets": path.resolve(import.meta.dirname, "..", "..", "attached_assets"),
-      "@workspace/api-client-react": path.resolve(import.meta.dirname, "../../lib/api-client-react/src"),
-      "@workspace/api-zod": path.resolve(import.meta.dirname, "../../lib/api-zod/src"),
+      "@workspace/api-client-react": path.resolve(import.meta.dirname, "src/_workspace/api-client-react"),
+      "@workspace/api-zod": path.resolve(import.meta.dirname, "src/_workspace/api-zod"),
     },
     dedupe: ["react", "react-dom"],
   },

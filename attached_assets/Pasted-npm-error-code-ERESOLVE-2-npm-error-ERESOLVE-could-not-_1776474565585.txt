@@ -1,0 +1,246 @@
+npm error code ERESOLVE
+
+2
+
+npm error ERESOLVE could not resolve
+
+3
+
+npm error
+
+4
+
+npm error While resolving: @clerk/react@6.4.2
+
+5
+
+npm error Found: react@19.1.0
+
+6
+
+npm error node_modules/react
+
+7
+
+npm error dev react@"19.1.0" from the root project
+
+8
+
+npm error peer react@">=16.8.0" from @floating-ui/react-dom@2.1.8
+
+9
+
+npm error node_modules/@floating-ui/react-dom
+
+10
+
+npm error @floating-ui/react-dom@"^2.0.0" from @radix-ui/react-popper@1.2.8
+
+11
+
+npm error node_modules/@radix-ui/react-popper
+
+12
+
+npm error @radix-ui/react-popper@"1.2.8" from @radix-ui/react-hover-card@1.1.15
+
+13
+
+npm error node_modules/@radix-ui/react-hover-card
+
+14
+
+npm error dev @radix-ui/react-hover-card@"^1.1.7" from the root project
+
+15
+
+npm error 4 more (@radix-ui/react-menu, @radix-ui/react-popover, ...)
+
+16
+
+npm error 91 more (@radix-ui/react-accordion, ...)
+
+17
+
+npm error
+
+18
+
+npm error Could not resolve dependency:
+
+19
+
+npm error peer react@"^18.0.0 || ~19.0.3 || ~19.1.4 || ~19.2.3 || ~19.3.0-0" from @clerk/react@6.4.2
+
+20
+
+npm error node_modules/@clerk/react
+
+21
+
+npm error @clerk/react@"^6.4.2" from the root project
+
+22
+
+npm error
+
+23
+
+npm error Conflicting peer dependency: react@19.2.5
+
+24
+
+npm error node_modules/react
+
+25
+
+npm error peer react@"^18.0.0 || ~19.0.3 || ~19.1.4 || ~19.2.3 || ~19.3.0-0" from @clerk/react@6.4.2
+
+26
+
+npm error node_modules/@clerk/react
+
+27
+
+npm error @clerk/react@"^6.4.2" from the root project
+
+28
+
+npm error
+
+29
+
+npm error Fix the upstream dependency conflict, or retry
+
+30
+
+npm error this command with --force or --legacy-peer-deps
+
+31
+
+npm error to accept an incorrect (and potentially broken) dependency resolution.
+
+32
+
+npm error
+
+33
+
+npm error
+
+34
+
+npm error For a full report see:
+
+35
+
+npm error /home/u700676962/.npm/_logs/2026-04-18T01_01_34_561Z-eresolve-report.txt
+
+36
+
+npm error A complete log of this run can be found in: /home/u700676962/.npm/_logs/2026-04-18T01_01_34_561Z-debug-0.log
+
+37
+
+ERROR: Failed to install dependencies
+
+38
+
+NOTICE: Attempting to install with legacy peer dependencies enabled
+
+39
+
+
+40
+
+added 255 packages, and audited 257 packages in 4s
+
+41
+
+
+42
+
+24 packages are looking for funding
+
+43
+
+run `npm fund` for details
+
+44
+
+
+45
+
+found 0 vulnerabilities
+
+46
+
+
+47
+
+> @workspace/trading-analyzer@0.0.0 build
+
+48
+
+> vite build --config vite.config.ts
+
+49
+
+
+50
+
+vite v7.3.2 building client environment for production...
+
+51
+
+transforming...
+
+52
+
+src/components/ui/tooltip.tsx (2:0): Error when using sourcemap for reporting an error: Can't resolve original location of error.
+
+53
+
+✓ 1750 modules transformed.
+
+54
+
+✗ Build failed in 1.83s
+
+55
+
+error during build:
+
+56
+
+[vite:load-fallback] Could not load /home/u700676962/domains/gold-nightingale-807634.hostingersite.com/public_html/.builds/lib/api-client-react/src (imported by src/pages/analysis-detail.tsx): ENOENT: no such file or directory, open '/home/u700676962/domains/gold-nightingale-807634.hostingersite.com/public_html/.builds/lib/api-client-react/src'
+
+57
+
+at async open (node:internal/fs/promises:636:25)
+
+58
+
+at async Object.readFile (node:internal/fs/promises:1235:14)
+
+59
+
+at async Object.handler (file:///home/u700676962/domains/gold-nightingale-807634.hostingersite.com/public_html/.builds/source/repository/node_modules/vite/dist/node/chunks/config.js:33173:21)
+
+60
+
+at async PluginDriver.hookFirstAndGetPlugin (file:///home/u700676962/domains/gold-nightingale-807634.hostingersite.com/public_html/.builds/source/repository/node_modules/rollup/dist/es/shared/node-entry.js:22849:28)
+
+61
+
+at async file:///home/u700676962/domains/gold-nightingale-807634.hostingersite.com/public_html/.builds/source/repository/node_modules/rollup/dist/es/shared/node-entry.js:21833:33
+
+62
+
+at async Queue.work (file:///home/u700676962/domains/gold-nightingale-807634.hostingersite.com/public_html/.builds/source/repository/node_modules/rollup/dist/es/shared/node-entry.js:23077:32)
+
+63
+
+ERROR: Failed to build the application
+
+
